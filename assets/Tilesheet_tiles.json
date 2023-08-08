@@ -1,0 +1,64 @@
+{
+  "tiles": [
+    {
+      "name": "bush_g",
+      "hasRotation": "false",
+      "edges": ["GGGGGG", "GGGGGG", "GGGGGG", "GGGGGG"]
+    },
+    {
+      "name": "beach_T_L",
+      "hasRotation": "true",
+      "edges": ["WWWWWW", "WBBGGG", "GGGBBW", "WWWWWW"]
+    },
+    {
+      "name": "beach_T_C",
+      "hasRotation": "true",
+      "edges": ["WWWWWW", "WBBGGG", "GGGGGG", "GGGBBW"]
+    },
+    {
+      "name": "beach_T_R",
+      "hasRotation": "true",
+      "edges": ["WWWWWW", "WWWWWW", "WBBGGG", "GGGBBW"]
+    },
+    {
+      "name": "grass_w_T_L",
+      "hasRotation": "true",
+      "edges": ["GGGGGG", "GGGBBW", "WBBGGG", "GGGGGG"]
+    },
+    {
+      "name": "grass_w_T_R",
+      "hasRotation": "true",
+      "edges": ["GGGGGG", "GGGGGG", "GGGBBW", "WBBGGG"]
+    },
+    {
+      "name": "water",
+      "hasRotation": "true",
+      "edges": ["WWWWWW", "WWWWWW", "WWWWWW", "WWWWWW"]
+    },
+    {
+      "name": "bank_T_L",
+      "hasRotation": "true",
+      "edges": ["WWWWWW", "WbbDDD", "DDDbbW", "WWWWWW"]
+    },
+    {
+      "name": "bank_T_C",
+      "hasRotation": "true",
+      "edges": ["WWWWWW", "WbbDDD", "DDDDDD", "DDDbbW"]
+    },
+    {
+      "name": "bank_T_R",
+      "hasRotation": "true",
+      "edges": ["WWWWWW", "WWWWWW", "WbbDDD", "DDDbbW"]
+    },
+    {
+      "name": "dirt_w_T_L",
+      "hasRotation": "true",
+      "edges": ["DDDDDD", "DDDbbW", "WbbDDD", "DDDDDD"]
+    },
+    {
+      "name": "dirt_w_T_R",
+      "hasRotation": "true",
+      "edges": ["DDDDDD", "DDDDDD", "DDDbbW", "WbbDDD"]
+    }
+  ]
+}

@@ -3,7 +3,9 @@
 
 // Single tile struct
 struct Tile {
-  int edges[4][8];
+  char title;
+  bool hasRotation;
+  char edges[4][8];
 
 };
 
