@@ -59,6 +59,126 @@
       "name": "dirt_w_T_R",
       "hasRotation": "true",
       "edges": ["DDDDDD", "DDDDDD", "DDDbbW", "WbbDDD"]
+    },
+    {
+      "name": "tree_g_single",
+      "hasRotation": "false",
+      "edges": ["GGGGGG", "GGGGGG", "GGGGGG", "GGGGGG"]
+    },
+    {
+      "name": "beach_C_L",
+      "hasRotation": "true",
+      "edges": ["WBBGGG", "GGGGGG", "GGGBBW", "WWWWWW"]
+    },
+    {
+      "name": "grass",
+      "hasRotation": "true",
+      "edges": ["GGGGGG", "GGGGGG", "GGGGGG", "GGGGGG"]
+    },
+    {
+      "name": "beach_C_R",
+      "hasRotation": "true",
+      "edges": ["GGGBBW", "WWWWWW", "WBBGGG", "GGGGGG"]
+    },
+    {
+      "name": "grass_w_C_L",
+      "hasRotation": "true",
+      "edges": ["GGGBBW", "WBBGGG", "GGGGGG", "GGGGGG"]
+    },
+    {
+      "name": "grass_w_C_R",
+      "hasRotation": "true",
+      "edges": ["WBBGGG", "GGGGGG", "GGGGGG", "GGGBBW"]
+    },
+    {
+      "name": "tree_d_single",
+      "hasRotation": "false",
+      "edges": ["DDDDDD", "DDDDDD", "DDDDDD", "DDDDDD"]
+    },
+    {
+      "name": "bank_C_L",
+      "hasRotation": "true",
+      "edges": ["WbbDDD", "DDDDDD", "DDDbbW", "WWWWWW"]
+    },
+    {
+      "name": "dirt",
+      "hasRotation": "true",
+      "edges": ["DDDDDD", "DDDDDD", "DDDDDD", "DDDDDD"]
+    },
+    {
+      "name": "bank_C_R",
+      "hasRotation": "true",
+      "edges": ["DDDbbW", "WWWWWW", "WbbDDD", "DDDDDD"]
+    },
+    {
+      "name": "dirt_w_C_L",
+      "hasRotation": "true",
+      "edges": ["DDDbbW", "WbbDDD", "DDDDDD", "DDDDDD"]
+    },
+    {
+      "name": "dirt_w_C_R",
+      "hasRotation": "true",
+      "edges": ["WbbDDD", "DDDDDD", "DDDDDD", "DDDbbW"]
+    },
+    {
+      "name": "tree_g_double",
+      "hasRotation": "false",
+      "edges": ["GGGGGG", "GGGGGG", "GGGGGG", "GGGGGG"]
+    },
+    {
+      "name": "beach_B_L",
+      "hasRotation": "true",
+      "edges": ["WBBGGG", "GGGBBW", "WWWWWW", "WWWWWW"]
+    },
+    {
+      "name": "beach_B_C",
+      "hasRotation": "true",
+      "edges": ["GGGGGG", "GGGBBW", "WWWWWW", "WBBGGG"]
+    },
+    {
+      "name": "beach_B_R",
+      "hasRotation": "true",
+      "edges": ["GGGBBW", "WWWWWW", "WWWWWW", "WBBGGG"]
+    },
+    {
+      "name": "island_g_single",
+      "hasRotation": "true",
+      "edges": ["WWWWWW", "WWWWWW", "WWWWWW", "WWWWWW"]
+    },
+    {
+      "name": "island_g_double",
+      "hasRotation": "true",
+      "edges": ["WWWWWW", "WWWWWW", "WWWWWW", "WWWWWW"]
+    },
+    {
+      "name": "tree_d_double",
+      "hasRotation": "false",
+      "edges": ["DDDDDD", "DDDDDD", "DDDDDD", "DDDDDD"]
+    },
+    {
+      "name": "bank_B_L",
+      "hasRotation": "true",
+      "edges": ["WbbDDD", "DDDbbW", "WWWWWW", "WWWWWW"]
+    },
+    {
+      "name": "bank_B_C",
+      "hasRotation": "true",
+      "edges": ["DDDDDD", "DDDbbW", "WWWWWW", "WbbDDD"]
+    },
+    {
+      "name": "bank_B_R",
+      "hasRotation": "true",
+      "edges": ["DDDbbW", "WWWWWW", "WWWWWW", "WbbDDD"]
+    },
+    {
+      "name": "island_d_single",
+      "hasRotation": "true",
+      "edges": ["WWWWWW", "WWWWWW", "WWWWWW", "WWWWWW"]
+    },
+    {
+      "name": "island_d_double",
+      "hasRotation": "true",
+      "edges": ["WWWWWW", "WWWWWW", "WWWWWW", "WWWWWW"]
     }
   ]
 }
