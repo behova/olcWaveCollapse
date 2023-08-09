@@ -1,5 +1,6 @@
 
 #include "olcPixelGameEngine.h"
+#include "tiles.h"
 #include <cstdio>
 #include <iostream>
 #include <memory>
@@ -21,11 +22,13 @@ public:
     tileColumns = 12;
     tileRows = 10;
     spriteSize = 16;
-    
+
     sprTileSheet = std::make_unique<olc::Sprite>("../assets/Tilemap/tiles.png");
 
-      return true;
+    tiles.initTiles();
+    tiles.printTileData();
 
+    return true;
   }
 
   bool OnUserUpdate(float fElapsedTime) override
@@ -33,17 +36,19 @@ public:
   /* start game loop*/
   {
     int i, j;
-         
-    for (i = 0; i < tileColumns + 1; i++){
+
+    for (i = 0; i < tileColumns + 1; i++) {
       for (j = 0; j < tileRows + 1; j++)
-         Engine::DrawPartialSprite(i*spriteSize, j*spriteSize, sprTileSheet.get(), i*spriteSize, j*spriteSize, 16, 16, 1);
+        Engine::DrawPartialSprite(i * spriteSize, j * spriteSize,
+                                  sprTileSheet.get(), i * spriteSize,
+                                  j * spriteSize, 16, 16, 1);
     }
-  
+
     return true;
   }
 
 protected:
-  
+  Tiles tiles;
 };
 
 int main() {
